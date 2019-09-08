@@ -1,9 +1,17 @@
 import React from "react";
+import '../../buttons.css';
 
-const OperatorButton = () => {
+const OperatorButton = ({o, i, setOperator}) => {
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+  	<button 
+  		key={i} 
+  		class="button-display" 
+  		style={{backgroundColor: "#0072ff"}}
+  		onClick={() => setOperator(o.value)}
+  	>
+  		{o.char}
+  	</button>
   );
 };
+
+export default OperatorButton

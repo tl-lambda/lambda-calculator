@@ -1,9 +1,17 @@
 import React from "react";
+import '../../buttons.css';
 
-const SpecialButton = () => {
+const SpecialButton = ({s, i, setSpecial}) => {
   return (
-    <>
-      {/* Display a button element rendering the data being passed down from the parent container on props */}
-    </>
+    <button 
+    	key={i} 
+    	class="button-display" 
+    	style={{backgroundColor: "#6262ff"}}
+    	onClick={() => setSpecial(s)}
+    >
+    	{s}
+    </button>
   );
 };
+
+export default SpecialButton

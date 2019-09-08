@@ -1,0 +1,22 @@
+.operators-display {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-display {
+	border-radius: 50%;
+  border: solid black 1px;
+  background-color: blue;
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
+
+.button-display:hover {
+  cursor:pointer;
+}
+
+.button-display:focus{
+  outline:none;
+}

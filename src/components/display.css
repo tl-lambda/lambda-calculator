@@ -1,0 +1,14 @@
+.screen-display {
+	border: solid black 1px;
+	padding: 1%;
+	border: solid black 1px;
+  padding: 5%;
+  margin: 3%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: grey;
+  display: flex;
+  justify-content: flex-end;
+}

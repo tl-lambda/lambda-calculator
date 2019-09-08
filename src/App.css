@@ -1,0 +1,10 @@
+.container {
+	border: solid black 1px;
+	width: 240px;
+	margin: 20px auto;
+	background-color:red;
+}
+
+.buttons-display {
+	display: flex;
+}

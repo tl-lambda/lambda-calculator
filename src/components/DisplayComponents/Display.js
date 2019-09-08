@@ -1,5 +1,8 @@
 import React from "react";
+import '../display.css'
 
 const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+  return <div class="screen-display">0</div>;
 };
+
+export default Display
