@@ -5,7 +5,7 @@ const SpecialButton = ({s, i, setSpecial}) => {
   return (
     <button 
     	key={i} 
-    	class="button-display" 
+    	className="button-display" 
     	style={{backgroundColor: "#6262ff"}}
     	onClick={() => setSpecial(s)}
     >

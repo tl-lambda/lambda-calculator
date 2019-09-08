@@ -14,7 +14,7 @@ const NumberButton = ({n, i, setNumber}) => {
   return (
     <button 
     	key={i} 
-    	class="button-display" 
+    	className="button-display" 
     	style={n === '0' ? zero : null}
       onClick={() => setNumber(n)}
     >

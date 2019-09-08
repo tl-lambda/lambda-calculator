@@ -5,7 +5,7 @@ const OperatorButton = ({o, i, setOperator}) => {
   return (
   	<button 
   		key={i} 
-  		class="button-display" 
+  		className="button-display" 
   		style={{backgroundColor: "#0072ff"}}
   		onClick={() => setOperator(o.value)}
   	>

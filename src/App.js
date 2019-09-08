@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="container">
       <Display/>
-      <div class="buttons-display">
+      <div className="buttons-display">
         <div>
           <Specials />
           <Numbers />
